@@ -1,28 +1,36 @@
 html, body {
-  max-width: 960px;
+  max-width: 1200px;
   margin: auto;
   font-size: 12px;
   background-color: #36454f;
   font-family: 'Martel', serif;
 }
 
-body {
+.header-row {
+  text-align: center;
+  /*padding: 2rem;*/
+  border-bottom: 1px solid #ccc;
+  color: #ffffff;
+  height: 8rem;
+  width: 100%;
+  max-width: 1200px;
+  position: fixed;
+  top: 0;
+  z-index: 1;
   background-color: #36454f;
 }
 
 #name {
-  margin: auto;
+  font-size: 2rem;
+  margin: 3rem;
 }
 
-.header-row {
-  text-align: center;
-  padding: 3em;
-  border-bottom: 1px solid #ccc;
-  color: #ffffff;
+.content-row {
+  margin: 8rem;
 }
 
-.row .map {
-  margin: 40px 0;
+.content-row .col-sm-12 .row .map {
+  margin: 2rem 0;
 }
 
 img {

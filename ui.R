@@ -6,11 +6,13 @@ shinyUI(fluidPage(
            tags$h2(id = "name", "Maps I Made")
   ),
   
-  column(12,
-         fluidRow(tags$img(class = "map", src = "imgs/LabLib.PNG")),
-         fluidRow(tags$img(class = "map", src = "imgs/Australia.PNG")),
-         fluidRow(tags$img(class = "map", src = "imgs/Leichhardt.PNG"))
-         ),
+  fluidRow(class = "content-row",
+    column(12,
+           fluidRow(tags$img(class = "map", src = "imgs/LabLib.PNG")),
+           fluidRow(tags$img(class = "map", src = "imgs/Australia.PNG")),
+           fluidRow(tags$img(class = "map", src = "imgs/Leichhardt.PNG"))
+           )
+  ),
   
 #   fluidRow(class = "content-row",
 #            column(4, tags$a(class = "app-link", href = "http://www.genebrown.info/shiny/Syllables/", tags$img(id = "syllables", src = "imgs/Syllables.png"))),
