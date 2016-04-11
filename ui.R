@@ -53,7 +53,7 @@ shinyUI(fluidPage(
                            fluidRow(class = "map-content",
                                     tags$h3("The concentration of the Australian population"),
                                     tags$p(class = "map-explain-small",
-                                           "Each point on this map represents the approximate residencies of 10 Australians. Points are placed based on Australian census data from 2011 & coloured by the state they fall in."),
+                                           "Each point on this map represents the approximate residencies of 10 Australians. Points are placed based on Australian census data from 2011 & coloured by the state in which they fall."),
                                     tags$img(class = "map", src = "imgs/Australia.PNG"),
                                     tags$p(class = "map-explain-big",
                                            "Australia has a highly concentrated population. The three largest cities are on the East Coast. To the West & North of these stretch networks of smaller cities and towns that grow thin as they approach the deserts that begin at Eastern Central Australia and run out to the North West coastline. In the North West small dots show the locations of isolated mining towns and shipping ports. Perth and surrounds occupy the temporate South West corner of the country."),
@@ -65,7 +65,7 @@ shinyUI(fluidPage(
                                            "Each point on this map represents the residence of 10 people in & surrounding the Leichhardt Council Area of Sydney. Points are placed based on Australian census data from 2011."),
                                     tags$img(class = "map", src = "imgs/Leichhardt.PNG"),
                                     tags$p(class = "map-explain-big",
-                                           "The most granular publicly available population data is the mesh block count released by the Australian Bureau of Statistics with each Census. In 2011 347,627 mesh blocks covered Australia to equate to roughly 1 per 70 residents. The points on this map are distributed across the mesh blocks (outlined in grey) based on their populations, illustrating what the most granular estimation of Leichhardts residents based on census data looks like."),
+                                           "The most granular publicly available population data is the mesh block count released by the Australian Bureau of Statistics with each Census. In 2011 347,627 mesh blocks covered Australia to equate to roughly 1 per 70 residents. The points on this map are distributed across the mesh blocks (outlined in grey) based on their populations, illustrating what a detailed estimation of Leichhardts residents based on census data looks like."),
                                     tags$span(class = "sources")
                            )
                     )
