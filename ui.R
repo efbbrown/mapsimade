@@ -53,7 +53,7 @@ shinyUI(fluidPage(
                            fluidRow(class = "map-content",
                                     tags$h3("The concentration of the Australian population"),
                                     tags$p(class = "map-explain-small",
-                                           "Each point on this map represents the approximate residencies of 10 Australians. Points are placed based on Australian census data from 2011 & coloured by the state they fall in."),
+                                           "Each point on this map represents the approximate residencies of 10 Australians. Points are placed based on Australian census data from 2011 & coloured by the state in which they fall."),
                                     tags$img(class = "map", src = "imgs/Australia.PNG"),
                                     tags$p(class = "map-explain-big",
                                            "Australia has a highly concentrated population. The three largest cities are on the East Coast. To the West & North of these stretch networks of smaller cities and towns that grow thin as they approach the deserts that begin at Eastern Central Australia and run out to the North West coastline. In the North West small dots show the locations of isolated mining towns and shipping ports. Perth and surrounds occupy the temporate South West corner of the country."),
